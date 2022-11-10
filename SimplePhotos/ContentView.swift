@@ -8,9 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var photos:[Photo] = []
+    
+    let columns = [GridItem](repeating: GridItem(.flexible()), count: 4)
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ScrollView {
+            LazyVGrid(columns: columns) {
+                ForEach(photos, id: \.self) { photo in
+                    PhotoView(photoData: photo)
+                }
+            }
+            .padding(.horizontal)
+            .onAppear {
+                ApiCall.getPhotos(completion: { photos in
+                    self.photos = photos
+                })
+            }.padding()
+        }.frame(minWidth: 900, minHeight: 800)
     }
 }
 
