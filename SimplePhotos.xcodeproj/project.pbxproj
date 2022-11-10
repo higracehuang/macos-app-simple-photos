@@ -13,6 +13,7 @@
 		062393CC291CA20F0099C805 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 062393CB291CA20F0099C805 /* Preview Assets.xcassets */; };
 		062393D4291CA4B50099C805 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062393D3291CA4B50099C805 /* Photo.swift */; };
 		062393D6291D5E2D0099C805 /* ApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062393D5291D5E2D0099C805 /* ApiCall.swift */; };
+		062393D8291D83B80099C805 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062393D7291D83B80099C805 /* PhotoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		062393CD291CA20F0099C805 /* SimplePhotos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimplePhotos.entitlements; sourceTree = "<group>"; };
 		062393D3291CA4B50099C805 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		062393D5291D5E2D0099C805 /* ApiCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCall.swift; sourceTree = "<group>"; };
+		062393D7291D83B80099C805 /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				062393CD291CA20F0099C805 /* SimplePhotos.entitlements */,
 				062393CA291CA20F0099C805 /* Preview Content */,
 				062393D5291D5E2D0099C805 /* ApiCall.swift */,
+				062393D7291D83B80099C805 /* PhotoView.swift */,
 			);
 			path = SimplePhotos;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				062393D4291CA4B50099C805 /* Photo.swift in Sources */,
 				062393C7291CA20D0099C805 /* ContentView.swift in Sources */,
 				062393D6291D5E2D0099C805 /* ApiCall.swift in Sources */,
+				062393D8291D83B80099C805 /* PhotoView.swift in Sources */,
 				062393C5291CA20D0099C805 /* SimplePhotosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
