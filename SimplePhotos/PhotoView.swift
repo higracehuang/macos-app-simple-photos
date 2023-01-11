@@ -37,7 +37,7 @@ struct PhotoView: View {
     }
 }
 
-struct PhotoView_Previews_Long: PreviewProvider {
+struct PhotoView_Previews_Short: PreviewProvider {
     static var previews: some View {
         PhotoView(photoData: Photo(
             albumId: 1,
@@ -48,7 +48,7 @@ struct PhotoView_Previews_Long: PreviewProvider {
     }
 }
 
-struct PhotoView_Previews_Short: PreviewProvider {
+struct PhotoView_Previews_Long: PreviewProvider {
     static var previews: some View {
         PhotoView(photoData: Photo(
             albumId: 1,
